@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f2f5;
+}
+
+form{
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+table{
+ box-shadow: 1px 1px 1px black;
+}
+
+#productTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+#productTable th, #productTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#productTable th {
+  background-color: #007bff;
+  color: white;
+}
+
+button.edit-btn {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+#message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+#message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+footer{
+   background-color:#F0F2F5;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
